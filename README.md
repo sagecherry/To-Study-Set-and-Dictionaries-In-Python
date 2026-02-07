@@ -37,9 +37,9 @@ thisset.add('orange')
 Result: {'grapes', 'lichhi', 'orange'}
 
 ### Removing Elements
-.remove(item) → removes item, raises error if not found  
-.discard(item) → removes item, no error if not found  
-.pop() → removes and returns arbitrary item
+.remove(item) = removes item, raises error if not found  
+.discard(item) = removes item, no error if not found  
+.pop() = removes and returns arbitrary item
 
 Example:  
 thisset = {'grapes', 'lichhi'}  
@@ -51,16 +51,16 @@ Result: {'lichhi'}
 Union (all elements from both sets)  
 a = {1, 2, 3, 4, 5}  
 b = {3, 4, 6, 7}  
-Union → {1, 2, 3, 4, 5, 6, 7}
+Union :{1, 2, 3, 4, 5, 6, 7}
 
 Intersection (common elements)  
-Intersection → {3, 4}
+Intersection : {3, 4}
 
 Difference (elements in first set but not in second)  
-Difference (a - b) → {1, 2, 5}
+Difference (a - b) = {1, 2, 5}
 
 Symmetric Difference (elements in either set but not both)  
-Symmetric Difference → {1, 2, 5, 6, 7}
+Symmetric Difference = {1, 2, 5, 6, 7}
 
 ### Frozenset
 - Immutable version of a set
@@ -69,17 +69,17 @@ Symmetric Difference → {1, 2, 5, 6, 7}
 
 Example:  
 names = frozenset({'ayush', 'arjit', 'bedang', 'kushal'})  
-Trying to do names.add('new') → Error
+Trying to do names.add('new') = Error
 
 ### Important Set Methods
-- .add() → add single element
-- .update() → add multiple elements
-- .remove() / .discard() → remove element
-- .clear() → remove all elements
-- .union() / | → combine sets
-- .intersection() / & → common elements
-- .difference() / - → elements only in first set
-- .symmetric_difference() / ^ → elements in exactly one set
+- .add() = add single element
+- .update() = add multiple elements
+- .remove() / .discard() = remove element
+- .clear() = remove all elements
+- .union() / | = combine sets
+- .intersection() / & : common elements
+- .difference() / - : elements only in first set
+- .symmetric_difference() / ^ : elements in exactly one set
 
 ## 2. Dictionaries in Python
 
